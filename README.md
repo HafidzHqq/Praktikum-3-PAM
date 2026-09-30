@@ -2,7 +2,7 @@
 
 **Nama**: Hafidz Haqiqi
 **NIM**: 124140016
-**Mata Kuliah**: Pengembangan Aplikasi Mobile (PAM) ITERA
+**Mata Kuliah**: Pengembangan Aplikasi Mobile
 
 ## Screenshot Aplikasi Android
 

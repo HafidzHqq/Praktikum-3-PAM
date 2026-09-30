@@ -1,16 +1,14 @@
 # Praktikum 3 - My Profile App
 
-**Nama**: HAfidz Haqiqi
+**Nama**: Hafidz Haqiqi
 **NIM**: 124140016
 **Mata Kuliah**: Pengembangan Aplikasi Mobile (PAM) ITERA
 
-## Screenshot Aplikasi
+## Screenshot Aplikasi Android
 
-*(Silakan tambahkan screenshot aplikasi Anda di bawah ini)*
-![Screenshot Aplikasi Android atau Desktop](screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Cara Menjalankan
 
 - Android app: `./gradlew :androidApp:assembleDebug`
 - Desktop app: `./gradlew :desktopApp:run`
-

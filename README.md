@@ -1,35 +1,16 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop (JVM).
+# Praktikum 3 - My Profile App
 
-* [/iosApp](./iosApp/iosApp) contains an iOS application. Even if you’re sharing your UI with Compose Multiplatform,
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+**Nama**: HAfidz Haqiqi
+**NIM**: 124140016
+**Mata Kuliah**: Pengembangan Aplikasi Mobile (PAM) ITERA
 
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
-    folder is the appropriate location.
+## Screenshot Aplikasi
 
-### Running the apps
+*(Silakan tambahkan screenshot aplikasi Anda di bawah ini)*
+![Screenshot Aplikasi Android atau Desktop](screenshot.png)
 
-Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and options:
+## Cara Menjalankan
 
 - Android app: `./gradlew :androidApp:assembleDebug`
-- Desktop app:
-  - Hot reload: `./gradlew :desktopApp:hotRun --auto`
-  - Standard run: `./gradlew :desktopApp:run`
-- iOS app: open the [/iosApp](./iosApp) directory in Xcode and run it from there.
+- Desktop app: `./gradlew :desktopApp:run`
 
-### Running tests
-
-Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
-
-- Android tests: `./gradlew :shared:testAndroidHostTest`
-- Desktop tests: `./gradlew :shared:jvmTest`
-- iOS tests: `./gradlew :shared:iosSimulatorArm64Test`
-
----
-
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…

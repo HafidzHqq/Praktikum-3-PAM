@@ -44,19 +44,19 @@ fun ProfileScreen() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         ProfileHeader(
-            name = "John Doe",
-            bio = "Android Developer | Tech Enthusiast | Coffee Lover"
+            name = "HAfidz Haqiqi",
+            bio = "Mahasiswa ITERA | NIM: 124140016"
         )
         
         Spacer(modifier = Modifier.height(24.dp))
         
         ProfileCard {
             Column(modifier = Modifier.padding(16.dp)) {
-                InfoItem(label = "Email", text = "john.doe@example.com")
+                InfoItem(label = "Email", text = "hafidz@example.com")
                 Spacer(modifier = Modifier.height(12.dp))
-                InfoItem(label = "Phone", text = "+123 456 7890")
+                InfoItem(label = "Phone", text = "085840409283")
                 Spacer(modifier = Modifier.height(12.dp))
-                InfoItem(label = "Location", text = "Jakarta, Indonesia")
+                InfoItem(label = "Location", text = "Lampung, Indonesia")
             }
         }
         
